@@ -33,7 +33,8 @@ makeCacheMatrix <- function(stored.matrix = matrix()) {
 
 
 ## CacheSolve accepts as input an object created by makeCacheMatrix
-##  If the object has not already been solved, the function calculates it.
+##  If the object has not already been solved, the function solves it
+##   and stores the solution in the object.
 ##  If the object has already been solved, the function returns that
 ##   solution and a message to the user that the cached value is being used.
 
