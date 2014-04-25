@@ -50,6 +50,7 @@ cacheSolve <- function(stored.matrix, ...) {
         data <- stored.matrix$get()
         solution <- solve(data,...)
         stored.matrix$setsolution(solution)
-        solution
         ## Return a matrix that is the inverse of 'x'
+        solution
+        
 }
